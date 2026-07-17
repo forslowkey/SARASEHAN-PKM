@@ -1149,3 +1149,672 @@ footer p{
     }
 
 }
+
+/* =====================================================
+   COMPLETE MOBILE RESPONSIVE
+   ===================================================== */
+
+@media screen and (max-width: 768px){
+
+    /* ================= GLOBAL ================= */
+
+    body{
+        overflow-x:hidden;
+    }
+
+    h2{
+        line-height:1.2;
+    }
+
+
+    /* ================= NAVBAR ================= */
+
+    .navbar{
+
+        position:fixed;
+
+        top:10px;
+        left:50%;
+
+        transform:translateX(-50%);
+
+        width:94%;
+
+        padding:10px 14px;
+
+        border-radius:16px;
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:10px;
+
+    }
+
+    .logo{
+
+        font-size:22px;
+
+        gap:0;
+
+    }
+
+    .logo img{
+
+        width:42px;
+        height:42px;
+
+    }
+
+    .navbar ul{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        flex-wrap:wrap;
+
+        gap:8px 14px;
+
+    }
+
+    .navbar a{
+
+        font-size:11px;
+
+        white-space:nowrap;
+
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero{
+
+        min-height:100vh;
+
+        height:auto;
+
+        padding:150px 20px 60px;
+
+        background-attachment:scroll;
+
+    }
+
+    .hero-content{
+
+        width:100%;
+
+    }
+
+    .hero h1{
+
+        font-size:38px;
+
+        line-height:1.2;
+
+        max-width:100%;
+
+        margin-bottom:18px;
+
+    }
+
+    .hero p{
+
+        font-size:18px;
+
+        line-height:1.5;
+
+        margin-bottom:30px;
+
+    }
+
+    button{
+
+        padding:15px 30px;
+
+        font-size:16px;
+
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .about{
+
+        flex-direction:column;
+
+        padding:80px 7%;
+
+        gap:40px;
+
+    }
+
+    .about-image{
+
+        width:100%;
+
+    }
+
+    .about-image img{
+
+        width:100%;
+
+        max-width:100%;
+
+    }
+
+    .about-text{
+
+        max-width:100%;
+
+    }
+
+    .about-text h2{
+
+        font-size:34px;
+
+    }
+
+    .about-text p{
+
+        font-size:16px;
+
+        line-height:1.8;
+
+    }
+
+
+    /* ================= BENEFIT ================= */
+
+    .benefit{
+
+        padding:80px 7%;
+
+    }
+
+    .benefit h2{
+
+        font-size:34px;
+
+        margin-bottom:40px;
+
+    }
+
+    .benefit-container{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .benefit-card{
+
+        padding:30px 22px;
+
+    }
+
+
+    /* ================= SPEAKER ================= */
+
+    .speaker{
+
+        padding:80px 7%;
+
+    }
+
+    .speaker h2{
+
+        font-size:34px;
+
+    }
+
+    .speaker-subtitle{
+
+        font-size:15px;
+
+        margin-bottom:45px;
+
+    }
+
+    .speaker-container{
+
+        gap:35px;
+
+    }
+
+    .speaker-card{
+
+        width:100%;
+
+        flex-direction:column !important;
+
+        gap:25px;
+
+        padding:25px 20px;
+
+        text-align:center !important;
+
+    }
+
+    .speaker-card img{
+
+        width:190px;
+
+        height:190px;
+
+    }
+
+    .speaker-content{
+
+        width:100%;
+
+    }
+
+    .speaker-card h3{
+
+        font-size:24px;
+
+        line-height:1.3;
+
+    }
+
+    .speaker-card span{
+
+        font-size:14px;
+
+        line-height:1.5;
+
+    }
+
+    .speaker-card p{
+
+        font-size:14px;
+
+        line-height:1.7;
+
+    }
+
+    .speaker-card:nth-child(even)
+    .speaker-content{
+
+        text-align:center;
+
+    }
+
+    .speaker-card:nth-child(even)
+    .social{
+
+        justify-content:center;
+
+    }
+
+    .social{
+
+        justify-content:center;
+
+    }
+
+
+    /* ================= SCHEDULE ================= */
+
+    .schedule{
+
+        padding:80px 7%;
+
+    }
+
+    .schedule h2{
+
+        font-size:34px;
+
+    }
+
+    .schedule-date,
+    .schedule-time,
+    .schedule-location{
+
+        font-size:15px;
+
+        line-height:1.6;
+
+    }
+
+    .countdown{
+
+        gap:12px;
+
+        margin-top:40px;
+
+    }
+
+    .time-box{
+
+        width:calc(50% - 6px);
+
+        padding:20px 10px;
+
+    }
+
+    .time-box span{
+
+        font-size:32px;
+
+    }
+
+    .time-box small{
+
+        font-size:13px;
+
+    }
+
+
+    /* ================= TIMELINE ================= */
+
+    .schedule-line{
+
+        width:85%;
+
+        margin:45px auto;
+
+    }
+
+    .timeline-title{
+
+        padding:0 7%;
+
+        margin-bottom:45px;
+
+    }
+
+    .timeline-title h2{
+
+        font-size:34px;
+
+    }
+
+    .timeline-title p{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+    .timeline{
+
+        width:90%;
+
+    }
+
+    .timeline::before{
+
+        left:18px;
+
+    }
+
+    .timeline-item{
+
+        display:grid;
+
+        grid-template-columns:40px 1fr;
+
+        gap:15px;
+
+        margin-bottom:30px;
+
+    }
+
+    .timeline-dot{
+
+        grid-column:1;
+
+        grid-row:1 / span 2;
+
+        width:20px;
+
+        height:20px;
+
+    }
+
+    .timeline-time{
+
+        grid-column:2;
+
+        grid-row:1;
+
+        text-align:left;
+
+        font-size:17px;
+
+    }
+
+    .timeline-content{
+
+        grid-column:2;
+
+        grid-row:2;
+
+        padding:20px;
+
+    }
+
+    .timeline-content h3{
+
+        font-size:18px;
+
+    }
+
+    .timeline-content p{
+
+        font-size:14px;
+
+        line-height:1.6;
+
+    }
+
+
+    /* ================= GALLERY ================= */
+
+    .gallery{
+
+        padding:80px 7%;
+
+    }
+
+    .gallery h2{
+
+        font-size:34px;
+
+    }
+
+    .gallery-subtitle{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+        margin-bottom:40px;
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .gallery-item img{
+
+        height:240px;
+
+    }
+
+
+    /* ================= CONTACT ================= */
+
+    .contact{
+
+        padding:80px 7%;
+
+    }
+
+    .contact h2{
+
+        font-size:34px;
+
+    }
+
+    .contact-subtitle{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+        margin-bottom:40px;
+
+    }
+
+    .main-contact-grid{
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+        margin-bottom:45px;
+
+    }
+
+    .main-contact-card{
+
+        padding:22px;
+
+        gap:15px;
+
+    }
+
+    .main-contact-card i{
+
+        width:52px;
+
+        height:52px;
+
+        font-size:23px;
+
+        flex-shrink:0;
+
+    }
+
+    .main-contact-card strong{
+
+        font-size:14px;
+
+    }
+
+    .social-links{
+
+        gap:15px;
+
+    }
+
+    .social-links a{
+
+        width:48px;
+
+        height:48px;
+
+        font-size:21px;
+
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer{
+
+        padding:20px 15px;
+
+    }
+
+    footer p{
+
+        font-size:12px;
+
+        line-height:1.6;
+
+    }
+
+}
+
+
+/* =====================================================
+   EXTRA SMALL PHONE
+   ===================================================== */
+
+@media screen and (max-width: 400px){
+
+    .navbar{
+
+        width:96%;
+
+    }
+
+    .navbar ul{
+
+        gap:6px 10px;
+
+    }
+
+    .navbar a{
+
+        font-size:10px;
+
+    }
+
+    .hero h1{
+
+        font-size:32px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .about-text h2,
+    .benefit h2,
+    .speaker h2,
+    .schedule h2,
+    .timeline-title h2,
+    .gallery h2,
+    .contact h2{
+
+        font-size:30px;
+
+    }
+
+    .speaker-card img{
+
+        width:170px;
+
+        height:170px;
+
+    }
+
+    .time-box span{
+
+        font-size:28px;
+
+    }
+
+}
