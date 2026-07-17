@@ -1321,3 +1321,62 @@ footer p{
     }
 
 }
+/* FIX ICON CONTACT DI MOBILE */
+
+@media screen and (max-width: 768px){
+
+    .main-contact-card{
+
+        display:flex;
+
+        align-items:center;
+
+        width:100%;
+
+        min-width:0;
+
+    }
+
+    .main-contact-card i{
+
+        width:55px !important;
+
+        min-width:55px !important;
+
+        height:55px !important;
+
+        min-height:55px !important;
+
+        flex:0 0 55px !important;
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
+
+        border-radius:50%;
+
+        font-size:24px;
+
+    }
+
+    .main-contact-card div{
+
+        min-width:0;
+
+        flex:1;
+
+    }
+
+    .main-contact-card strong{
+
+        display:block;
+
+        font-size:14px;
+
+        word-break:break-word;
+
+    }
+
+}
